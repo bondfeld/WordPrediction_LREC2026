@@ -31,7 +31,7 @@ Proceedings of LREC 2026.
 ```bibtex
 @inproceedings{feldman2026wordprediction,
   title     = {A Typologically Grounded Evaluation Framework for Word Order and Morphology Sensitivity in Multilingual Masked LMs},
-  author    = {Feldman, Anna and ...},
+  author    = {Feldman, Anna and Barak, Libby and Peng, Jing},
   booktitle = {Proceedings of LREC 2026},
   year      = {2026}
 }
