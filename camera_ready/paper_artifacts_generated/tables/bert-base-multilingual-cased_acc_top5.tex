@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.0}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lccccccc}
+\toprule
+\multicolumn{8}{c}{\textbf{mBERT (Top-5)}}\\
+\midrule
+Lang & Orig & Full & Part & Head & Orig+L & Full+L & Part+L \\
+\midrule
+DE & 0.280 & 0.013 & 0.163 & 0.153 & 0.183 & 0.017 & 0.100 \\
+EN & 0.438 & 0.014 & 0.248 & 0.141 & 0.324 & 0.014 & 0.190 \\
+ES & 0.398 & 0.017 & 0.237 & 0.134 & 0.227 & 0.033 & 0.137 \\
+RU & 0.395 & 0.020 & 0.217 & 0.140 & 0.164 & 0.017 & 0.110 \\
+ZH & 0.550 & 0.070 & 0.333 & 0.267 & 0.553 & 0.073 & 0.337 \\
+\bottomrule
+\end{tabular}}
+\caption{Balanced top-5 word accuracy for mBERT (Top-5).}
+\end{table}

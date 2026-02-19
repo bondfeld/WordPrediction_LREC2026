@@ -1,0 +1,20 @@
+{
+  "seed": 123,
+  "model_name": "bert-base-multilingual-cased",
+  "languages": [
+    "en_ewt",
+    "de_gsd",
+    "es_ancora"
+  ],
+  "top_k": 5,
+  "out_dir": "./outputs",
+  "timestamp": "2025-08-13 17:06:37",
+  "python_version": "3.11.13",
+  "packages": {
+    "transformers": "4.55.0",
+    "torch": "2.6.0+cu124",
+    "numpy": "2.0.2",
+    "pandas": "2.2.2"
+  },
+  "model_actual": "bert-base-multilingual-cased"
+}
